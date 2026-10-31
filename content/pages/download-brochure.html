@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K1H2PEW882"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-K1H2PEW882');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Allmarc - Download Brochure</title>
+
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://allmarcindia.com/download-brochure/">
+<link rel="stylesheet" href="/legacy/frontend/dist/app.css">
+<link rel="preload" href="/legacy/assets/fonts/Allmarc_web.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/legacy/assets/fonts/Allmarc_Bold_web.woff2" as="font" type="font/woff2" crossorigin>
+
+<!--
+  Design tokens. On these pages the file is usually empty: the palette is
+  only pushed into migrated markup when someone opts in, because these are
+  pixel-faithful copies of the old site.
+-->
+<link rel="stylesheet" href="/design.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&family=Architects+Daughter&display=swap">
+<link rel="stylesheet" href="/ui/allmarc-kit.css?v=mvizgioy">
+<style>
+:root{--am-font:'DM Sans',Calibri,'Segoe UI',Helvetica,Arial,sans-serif}
+body,body :is(h1,h2,h3,h4,h5,h6,p,a,li,span,div,label,td,th,button,input,select,textarea,figcaption,blockquote,small,strong,em,b):not([class^="icon-"]):not([class*=" icon-"]):not(.amk-script){font-family:var(--am-font)}
+/* ---- Header + mega menu, desktop (992px up). Proportions follow the Turner
+   reference the client picked: one 112px row, logo block the same 25% width
+   as the menu's brand block, transparent over a hero and solid white once
+   scrolled. Phones keep the legacy drill-down menu untouched. ---- */
+@media (min-width:992px){
+.o-header.am-hdr .o-header__wrapper.container{max-width:none;width:100%;padding:0}
+.o-header.am-hdr .o-header__bar{height:112px;flex-wrap:nowrap;align-items:stretch;padding:0;width:100%}
+.o-header.am-hdr .h-expand-background--white::before{background:#fff;transition:opacity .3s ease-in-out}
+.o-header.am-hdr .o-header__wrapper{border-bottom:1px solid #e3e3e3;transition:border-color .3s ease-in-out}
+.o-header.am-hdr .mod-logo{order:1;flex:0 0 25%;box-sizing:border-box;display:flex;align-items:center;height:auto;
+  padding:0 2vw 0 4.6vw;border-right:1px solid #e3e3e3;transition:border-color .3s ease-in-out}
+.o-header.am-hdr .mod-logo figure{margin:0;float:none}
+.o-header.am-hdr .mod-logo img{height:34px;width:auto;transition:filter .3s ease-in-out}
+.o-header.am-hdr .am-mm{display:contents}
+.o-header.am-hdr .am-mm__item{order:2;display:flex;height:100%}
+.o-header.am-hdr .am-mm__item:first-child{margin-left:auto}
+.o-header.am-hdr .mod-nav-meta{order:3;display:flex;align-items:center;height:100%;margin-left:auto;padding:0 1.2vw}
+.o-header.am-hdr .mod-nav-meta__item{margin:0}
+.o-header.am-hdr .mod-nav-meta__item__link{display:flex!important;flex-direction:row!important;align-items:center;gap:7px;height:100%;padding:0 10px!important;font-size:14px!important;font-weight:500;color:#1b1e20;text-decoration:none}
+.o-header.am-hdr .mod-nav-meta__item__link::before{font-size:15px!important;margin:0!important}
+.o-header.am-hdr .mod-nav-meta__item__link span{font-size:14px!important;font-weight:500;line-height:1;margin:0!important;display:inline!important}
+.o-header.am-hdr .mod-nav-meta__item__link:hover,.o-header.am-hdr .mod-nav-meta__item__link:hover *{color:#e00910!important}
+html.am-hero body{padding-top:0!important}
+.o-header.am-hdr .am-mm__portal{order:4;display:flex!important;align-items:center;gap:8px;height:100%;padding:0 18px;border-left:1px solid #e3e3e3;color:#1b1e20!important;font-size:14px;font-weight:500;white-space:nowrap;text-decoration:none!important;transition:color .3s ease-in-out}
+.o-header.am-hdr .am-mm__portal:hover{color:#e00910!important}
+.o-header.am-hdr--clear .am-mm__portal{color:#fff!important;border-color:rgba(255,255,255,.28)}
+/* Icon only, so the header never runs out of room (2 Oct); the label stays for screen readers. */
+.o-header.am-hdr .am-mm__portal span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (max-width:1023px){.o-header.am-hdr .am-mm__portal{display:none!important}}
+.o-header.am-hdr .am-portal-li{position:relative;display:flex;align-items:center;height:100%}
+.am-portal-pop{position:absolute;top:calc(100% - 14px);right:-60px;width:290px;box-sizing:border-box;padding:20px 22px 18px;background:#fff;border-radius:14px;
+  box-shadow:0 24px 50px -20px rgba(20,24,28,.35),0 0 0 1px rgba(20,24,28,.06);text-align:left;opacity:0;visibility:hidden;transform:translateY(6px);
+  transition:opacity .2s ease,transform .2s ease,visibility 0s linear .2s;z-index:1001;font-family:var(--am-font);white-space:normal}
+.am-portal-li:hover .am-portal-pop,.am-portal-li:focus-within .am-portal-pop{opacity:1;visibility:visible;transform:none;transition:opacity .2s ease,transform .2s ease}
+.o-header.am-hdr .mod-nav-meta .am-portal-pop__label{display:block;font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:#e00910!important;margin-bottom:6px}
+.o-header.am-hdr .mod-nav-meta .am-portal-pop__h{display:block;font-size:18px;font-weight:400;line-height:1.3;color:#17171b!important;margin-bottom:8px}
+.o-header.am-hdr .mod-nav-meta .am-portal-pop p{font-size:13.5px;line-height:1.5;color:#5d6369!important;margin:0 0 14px}
+.o-header.am-hdr .mod-nav-meta .am-portal-pop__btn{display:flex!important;justify-content:center;padding:11px 16px;border-radius:100px;background:#e00910;color:#fff!important;font-size:14px;font-weight:500;text-decoration:none!important}
+.o-header.am-hdr .mod-nav-meta .am-portal-pop__btn:hover{background:#b8070d}
+.o-header.am-hdr .mod-nav-meta .am-portal-pop__link{display:block;margin-top:10px;text-align:center;font-size:13px;color:#17171b!important;text-decoration:none!important}
+.o-header.am-hdr .mod-nav-meta .am-portal-pop__link:hover{color:#e00910!important}
+.o-header.am-hdr .icon-globe span{max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:991px){.o-header.am-hdr .am-portal-li{display:none!important}}
+/* Phones: the header there is not .am-hdr, so the rule above missed it and the popup printed as loose text. */
+@media (max-width:991px){html body li.mod-nav-meta__item.am-portal-li.am-portal-li,html body .am-portal-li .am-portal-pop.am-portal-pop{display:none!important}}
+.o-header.am-hdr .am-mm__cta{order:4;display:flex!important;align-items:center;height:100%!important;margin:0!important;
+  padding:0 2.2vw!important;border-radius:0!important;background:none!important;color:#1b1e20!important;
+  border-left:1px solid #e3e3e3;font-size:14px;font-weight:500;position:relative;white-space:nowrap;transition:color .3s ease-in-out,border-color .3s ease-in-out}
+.o-header.am-hdr .am-mm__cta::before{content:"";position:absolute;left:0;top:0;height:8px;width:0;background:#e00910;transition:width .3s ease-in-out}
+.o-header.am-hdr .am-mm__cta:hover::before{width:100%}
+.o-header.am-hdr .am-mm__cta:hover{color:#e00910!important}
+.am-mm__top{display:flex!important;align-items:center;height:100%;box-sizing:border-box;padding:0 12px!important;margin:0!important;
+  color:#1b1e20;text-decoration:none;font-size:14px;font-weight:500;line-height:1.25;white-space:nowrap;position:relative;
+  transition:color .3s ease-in-out,background-color .4s linear}
+.am-mm__top:hover{color:#1b1e20!important}
+.am-mm__top::before{content:"";position:absolute;left:0;top:0;height:8px;width:0;background:#e00910;transition:width .3s ease-in-out .2s}
+.am-mm__item.is-open .am-mm__top{background:#fff;color:#1b1e20!important}
+.am-mm__item.is-open .am-mm__top::before{width:100%}
+
+/* Transparent state: over a hero and not scrolled. */
+.o-header.am-hdr--clear .h-expand-background--white::before{opacity:0}
+.o-header.am-hdr--clear .o-header__wrapper,.o-header.am-hdr--clear .mod-logo,.o-header.am-hdr--clear .am-mm__cta{border-color:rgba(255,255,255,.28)}
+.o-header.am-hdr--clear .mod-logo img{filter:brightness(0) invert(1)}
+.o-header.am-hdr--clear .am-mm__top,.o-header.am-hdr--clear .am-mm__cta{color:#fff!important}
+.o-header.am-hdr--clear .am-mm__item.is-open .am-mm__top{color:#1b1e20!important}
+.o-header.am-hdr--clear .mod-nav-meta,.o-header.am-hdr--clear .mod-nav-meta *{color:#fff!important}
+.o-header.am-hdr--clear .mod-nav-meta img,.o-header.am-hdr--clear .mod-nav-meta svg{filter:brightness(0) invert(1)}
+.o-header.am-hdr--clear{text-shadow:0 1px 12px rgba(0,0,0,.25)}
+.o-header.am-hdr--clear .am-mm__panel{text-shadow:none}
+}
+/* Phones and tablets: the reference's mobile header. Logo, search and the
+   menu button only; transparent over a photo hero, solid once scrolled. */
+@media (max-width:991px){
+  /* The customer-portal item and its popup are styled inside the desktop block above, so on a phone
+     the popup printed as loose text over the hero. Phones reach the portal from the menu instead. */
+  .am-portal-li,.am-portal-pop{display:none!important}
+  .o-header.am-hdr .mod-nav-meta__item:has(.icon-globe),.o-header.am-hdr .mod-nav-meta__item:has(.a-link--login){display:none!important}
+  .o-header.am-hdr .mod-logo img{height:24px;width:auto;transition:filter .3s ease-in-out}
+  .o-header.am-hdr .o-header__wrapper{border-bottom:1px solid #e3e3e3;transition:border-color .3s ease-in-out}
+  .o-header.am-hdr .h-expand-background--white::before{background:#fff;transition:opacity .3s ease-in-out}
+  html.am-hero body{padding-top:0!important}
+  .o-header.am-hdr--clear .h-expand-background--white::before{opacity:0}
+  .o-header.am-hdr--clear .o-header__wrapper{border-color:rgba(255,255,255,.28)}
+  .o-header.am-hdr--clear .mod-logo img{filter:brightness(0) invert(1)}
+  .o-header.am-hdr--clear .mod-nav-meta,.o-header.am-hdr--clear .mod-nav-meta *{color:#fff!important}
+  .o-header.am-hdr--clear .mod-nav-meta__burger-line{background:#fff!important}
+  /* The phone menu: full width, large light type, thin rules, red chevrons. */
+  .mod-nav.m-flyout .m-flyout__main-col{width:100%!important;max-width:none!important;flex:0 0 100%!important;background:#fff;padding:6px 24px 40px!important;box-sizing:border-box}
+  .mod-nav.m-flyout .m-flyout__list > .m-flyout__item > a,.mod-nav.m-flyout .m-flyout__column .m-flyout__item > a{
+    font-family:var(--am-font)!important;font-size:22px!important;font-weight:300!important;line-height:1.25!important;color:#17171b!important;
+    padding:16px 28px 16px 0!important;border-bottom:1px solid #ececee;display:block;position:relative;text-decoration:none!important}
+  .mod-nav.m-flyout .m-flyout__item > a span{font:inherit!important;color:inherit!important}
+  .mod-nav.m-flyout .js-is-parent > a::after{color:#e00910!important}
+  .mod-nav.m-flyout .m-flyout__overlay,.mod-nav.m-flyout .m-flyout__main-col{height:calc(100dvh - 68px)!important;max-height:none!important;overflow-y:auto!important}
+  .mod-nav.m-flyout .js-back-link{display:none!important}
+  .mod-nav.m-flyout .js-is-parent.amk-open > .m-flyout__column{position:fixed!important;left:0!important;top:68px!important;width:100%!important;height:calc(100dvh - 68px)!important;
+    z-index:20!important;background:#fff!important;overflow-y:auto!important;padding:6px 24px 40px!important;box-sizing:border-box;display:block!important;visibility:visible!important;opacity:1!important;transform:none!important}
+  .mod-nav.m-flyout .amk-back > a{font-size:13px!important;font-weight:500!important;letter-spacing:.08em;text-transform:uppercase;color:#e00910!important;padding:18px 0 18px 22px!important;border-bottom:1px solid #ececee}
+  .mod-nav.m-flyout .amk-back > a::before{content:"";position:absolute;left:2px;top:50%;width:8px;height:8px;border-left:1.5px solid #e00910;border-bottom:1.5px solid #e00910;transform:translateY(-50%) rotate(45deg)}
+  .mod-nav.m-flyout .amk-back > a::after{display:none!important}
+  .mod-nav.m-flyout .js-column-title > a{font-size:14px!important;font-weight:500!important;letter-spacing:.08em;text-transform:uppercase;color:#e00910!important}
+  .mod-nav.m-flyout .m-flyout__item.js-is-active > a{color:#17171b!important;font-weight:300!important}
+}
+/* Narrower desktops: everything tightens a step at a time so the one-line
+   menu and Contact Us always fit inside the window (2 Oct). */
+@media (min-width:992px) and (max-width:1499px){
+  .o-header.am-hdr .mod-logo{flex:0 0 auto;padding:0 32px 0 3.4vw}
+  .am-mm__top{padding:0 10px!important}
+  .o-header.am-hdr .mod-nav-meta{padding:0 6px}
+  .o-header.am-hdr .am-mm__cta{padding:0 24px!important}
+}
+@media (min-width:992px) and (max-width:1279px){
+  .o-header.am-hdr .mod-nav-meta__item span,.o-header.am-hdr .mod-nav-meta__item p{display:none}
+  .o-header.am-hdr .mod-logo{padding:0 22px 0 2.6vw}
+  .o-header.am-hdr .mod-logo img{height:28px}
+  .am-mm__top{padding:0 8px!important;font-size:13.5px!important}
+  .o-header.am-hdr .mod-nav-meta__item__link{padding:0 7px!important}
+  .o-header.am-hdr .am-mm__portal{padding:0 14px}
+  .o-header.am-hdr .am-mm__cta{padding:0 18px!important}
+}
+@media (min-width:992px) and (max-width:1120px){
+  .o-header.am-hdr .mod-logo{padding:0 16px 0 20px}
+  .o-header.am-hdr .mod-logo img{height:24px}
+  .am-mm__top{padding:0 6px!important;font-size:13px!important}
+  .o-header.am-hdr .mod-nav-meta{padding:0 2px}
+  .o-header.am-hdr .mod-nav-meta__item__link{padding:0 5px!important}
+  .o-header.am-hdr .am-mm__portal{padding:0 10px}
+  .o-header.am-hdr .am-mm__cta{padding:0 14px!important;font-size:13px}
+}
+@media (min-width:992px) and (max-width:1060px){
+  .o-header.am-hdr .mod-logo{padding:0 12px 0 16px}
+  .o-header.am-hdr .mod-logo img{height:22px}
+  .am-mm__top{padding:0 5px!important;font-size:12.5px!important}
+  .o-header.am-hdr .mod-nav-meta__item__link{padding:0 4px!important}
+  .o-header.am-hdr .am-mm__cta{padding:0 12px!important;font-size:12.5px}
+}
+
+/* The panel. Zones 25 / 50 / 25, as in the reference. */
+.am-mm__panel{position:fixed;left:0;right:0;top:var(--am-mm-top,112px);background:#fff;
+  box-shadow:0 30px 60px -30px rgba(20,24,28,.35);opacity:0;visibility:hidden;text-align:left;
+  transition:opacity .3s ease-in-out,visibility 0s linear .3s;z-index:1000}
+.am-mm__item.is-open .am-mm__panel{opacity:1;visibility:visible;transition:opacity .4s linear}
+.am-mm__panel a{white-space:normal!important;height:auto!important;margin-right:0!important}
+.am-mm__inner{display:flex;min-height:320px}
+.am-mm__left{flex:0 0 25%;box-sizing:border-box;background:#e00910;color:#fff;padding:18px 3.4vw 3.4vw 4.6vw;
+  display:flex;flex-direction:column}
+.am-mm__lt{font-size:16px;font-weight:700;line-height:20px;margin:0 0 27px}
+.am-mm__left p{font-size:18px;line-height:23.4px;font-weight:300;margin:0 0 24px;color:#fff}
+.am-mm__more,.am-mm__rl{display:inline-flex!important;align-items:center;gap:12px;text-transform:uppercase;letter-spacing:.84px;
+  font-size:14px;font-weight:500;text-decoration:none;margin-top:auto}
+.am-mm__more{color:#fff!important}
+.am-mm__more i,.am-mm__rl i{display:inline-block;width:30px;height:1px;background:currentColor;position:relative;transition:width .3s ease}
+.am-mm__more i::after,.am-mm__rl i::after{content:"";position:absolute;right:0;top:-4px;width:8px;height:8px;
+  border-top:1px solid currentColor;border-right:1px solid currentColor;transform:rotate(45deg)}
+.am-mm__more:hover i,.am-mm__rl:hover i{width:40px}
+.am-mm__center{flex:0 0 50%;box-sizing:border-box;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-content:start;
+  transform:translateY(10px);transition:transform .3s ease-out}
+.am-mm__right{flex:0 0 25%;box-sizing:border-box;display:flex;flex-direction:column;padding:18px 36px 30px 12px;
+  transform:translateY(10px);transition:transform .3s ease-out}
+.am-mm__item.is-open .am-mm__center,.am-mm__item.is-open .am-mm__right{transform:none}
+.am-mm__col{padding:18px 24px 24px;min-width:0}
+.am-mm__h{display:block!important;font-size:16px;font-weight:700;line-height:20px;color:#17171b!important;text-decoration:none;margin:0 0 25px;min-height:20px}
+a.am-mm__h:hover{color:#e00910!important}
+.am-mm__col ul{list-style:none;margin:0;padding:0}
+.am-mm__col li{margin:0 0 10px;padding:0}
+.am-mm__col li::before{display:none}
+.am-mm__col li a{display:block!important;color:#17171b!important;font-size:14px;font-weight:400;line-height:18px;
+  text-decoration:none;transition:color .3s ease-in-out}
+.am-mm__col li a:hover,.am-mm__col li a:focus{color:#e00910!important}
+.am-mm__inner--xwide .am-mm__right{display:none!important}.am-mm__inner--xwide .am-mm__center{flex-basis:80%!important}.am-mm__inner--xwide .am-mm__col{padding-right:14px}
+.am-mm__inner--wide .am-mm__left{flex-basis:20%}.am-mm__inner--wide .am-mm__right{flex-basis:20%}.am-mm__inner--wide .am-mm__center{flex-basis:60%}
+.am-mm__center{grid-template-columns:repeat(var(--c,3),minmax(0,1fr))!important}
+.am-mm__center--toggle{display:block!important}
+.am-mm__view{display:grid;grid-template-columns:repeat(var(--c,3),minmax(0,1fr))}
+.am-mm__center--toggle[data-view="p"] .am-mm__view[data-v="s"],.am-mm__center--toggle[data-view="s"] .am-mm__view[data-v="p"]{display:none}
+.am-mm__tg{display:flex;align-items:center;gap:6px;padding:14px 24px 0}
+.am-mm__tg span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#8b8e94;margin-right:6px}
+.am-mm__tg button{all:unset;cursor:pointer;font-size:13px;font-weight:500;padding:6px 14px;border-radius:100px;border:1px solid #e2e2e4;color:#17171b}
+.am-mm__tg button[aria-pressed="true"]{background:#17171b;color:#fff;border-color:#17171b}
+.am-mm__col li{margin:0 0 7px}
+.am-mm__col li a,.am-mm__col li .am-mm__soon{font-size:13.5px!important;line-height:17px!important}
+.am-mm__inner--rail .am-mm__left{flex-basis:20%}.am-mm__inner--rail .am-mm__center{flex-basis:60%}.am-mm__inner--rail .am-mm__right{flex-basis:20%}
+.am-mm__center--rail .am-mm__view{display:block!important;max-height:none!important;overflow:visible!important}
+.am-mm__center--rail[data-view="p"] .am-mm__view[data-v="s"],.am-mm__center--rail[data-view="s"] .am-mm__view[data-v="p"]{display:none!important}
+.am-mm__rw{display:flex;gap:0;min-height:340px}
+.am-mm__rail{list-style:none;margin:0;padding:14px 0 18px 12px;flex:0 0 232px;border-right:1px solid #ececee}
+.am-mm__rail li{margin:0;padding:0}.am-mm__rail li::before{display:none}
+.am-mm__rb{all:unset;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;width:100%;cursor:pointer;padding:10px 14px;border-radius:10px 0 0 10px;font-size:14.5px;font-weight:500;color:#17171b;transition:background .15s ease,color .15s ease}
+.am-mm__rb small{font-size:11.5px;font-weight:400;color:#8b8e94;margin-left:10px}
+.am-mm__rb.is-on,.am-mm__rb:focus-visible{background:#f3f3f4;color:#e00910}
+.am-mm__rb.is-on::after{content:"";width:6px;height:6px;border-top:1.5px solid currentColor;border-right:1.5px solid currentColor;transform:rotate(45deg);margin-left:8px}
+.am-mm__rb.is-on small{display:none}
+.am-mm__panes{flex:1;min-width:0;background:#f3f3f4;border-radius:0 12px 12px 0;margin:14px 12px 18px 0}
+.am-mm__pane{display:none;grid-template-columns:repeat(3,minmax(0,1fr));align-content:start}
+.am-mm__pane.is-on{display:grid;animation:am-mm-pane .22s ease}
+.am-mm__pane .am-mm__col{padding:16px 18px 10px}
+.am-mm__pane .am-mm__h{font-size:11px!important;letter-spacing:.09em;text-transform:uppercase;color:#8b8e94!important;margin-bottom:10px!important}
+@keyframes am-mm-pane{from{opacity:0;transform:translateX(6px)}to{opacity:1;transform:none}}
+.am-mm__center--rail .am-mm__tg{padding:14px 12px 0 24px}
+.am-mm__view[data-v="s"]{max-height:calc(100vh - 240px);overflow:auto;overscroll-behavior:contain}
+.am-mm__view[data-v="s"] .am-mm__col li{margin:0 0 3px}
+.am-mm__view[data-v="s"] .am-mm__col li a,.am-mm__view[data-v="s"] .am-mm__col li span{font-size:13px!important;line-height:17px!important}
+.am-mm__soon{display:block;color:#b3b7bd;font-size:14px;line-height:18px;cursor:default}
+.am-mm__img{display:block!important;border-radius:10px;overflow:hidden;margin:12px 8px 16px}
+.am-mm__img img{display:block;width:100%;aspect-ratio:400/240;object-fit:cover;transition:transform .5s ease}
+.am-mm__img:hover img{transform:scale(1.04)}
+.am-mm__rl{color:#17171b!important;margin:0 8px}
+.am-mm__rl:hover{color:#e00910!important}
+.am-mm__cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:14px}
+.am-mm__pane .am-mm__cards{grid-column:1/-1}
+.am-mm__card{display:flex!important;flex-direction:column;text-align:left!important;background:#fff;border-radius:10px;overflow:hidden;color:#17171b!important;text-decoration:none!important;box-shadow:0 0 0 1px #e6e6e8;transition:box-shadow .2s ease,transform .2s ease}
+.am-mm__card:hover,.am-mm__card.is-on{box-shadow:0 0 0 1.5px #e00910,0 10px 22px -14px rgba(20,24,28,.4);transform:translateY(-1px)}
+.am-mm__ci{display:block;background:#eceef0;overflow:hidden}
+.am-mm__ci img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .5s ease}
+.am-mm__card:hover .am-mm__ci img{transform:scale(1.05)}
+.am-mm__card b,.am-mm__card small{text-align:left!important;align-self:stretch;display:block}
+.am-mm__card b{font-size:13.5px;font-weight:500;line-height:17px;padding:9px 11px 2px}
+.am-mm__card small{font-size:11.5px;line-height:15px;color:#8b8e94;padding:0 11px 10px}
+.am-mm__card:hover b,.am-mm__card.is-on b{color:#e00910}
+.am-mm__fpt{display:block;font-size:15px;font-weight:500;color:#17171b;margin:2px 8px 10px}
+.am-mm__fp{list-style:none;margin:0 8px 14px;padding:0}
+.am-mm__fp li{margin:0 0 8px;padding:0}.am-mm__fp li::before{display:none}
+.am-mm__fp a{font-size:13.5px!important;line-height:17px!important;color:#17171b!important}
+.am-mm__fp a:hover{color:#e00910!important}@media (prefers-reduced-motion:reduce){.am-mm__panel,.am-mm__top,.am-mm__top::before,.am-mm__center,.am-mm__right{transition:none}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://allmarcindia.com/#organization","name":"Allmarc Industries Private Limited","url":"https://allmarcindia.com/","description":"Allmarc Industries is a manufacturer of metal fabrication, scaffolding, formwork, decking and access systems, custom fabrication and precast solutions for construction, manufacturing, transportation equipment and power, renewables and utilities industries.","email":"info@allmarcindia.com","telephone":"+91-72029-66648","foundingDate":"2010","address":{"@type":"PostalAddress","streetAddress":"Survey No. 587, Kanbha-Kuha Road, Kanbha","addressLocality":"Ahmedabad","addressRegion":"Gujarat","addressCountry":"India"},"sameAs":["https://www.linkedin.com/company/allmarcgroup","https://www.instagram.com/allmarcgroup"]},{"@type":"WebSite","@id":"https://allmarcindia.com/#website","url":"https://allmarcindia.com/","name":"Allmarc","publisher":{"@id":"https://allmarcindia.com/#organization"},"inLanguage":"en-IN"},{"@type":"WebPage","@id":"https://allmarcindia.com/download-brochure/#webpage","url":"https://allmarcindia.com/download-brochure/","name":"Allmarc - Download Brochure","isPartOf":{"@id":"https://allmarcindia.com/#website"},"about":{"@id":"https://allmarcindia.com/#organization"},"dateModified":"2026-09-18T18:23:44.538Z","inLanguage":"en-IN","breadcrumb":{"@id":"https://allmarcindia.com/download-brochure#breadcrumbs"}},{"@type":"BreadcrumbList","@id":"https://allmarcindia.com/download-brochure#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allmarcindia.com/"},{"@type":"ListItem","position":2,"name":"Allmarc - Download Brochure","item":"https://allmarcindia.com/download-brochure/"}]}]}</script>
+
+</head>
+<body>
+
+
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+<div id="page">
+<div class="header header-fixed header-logo-center header-auto-show">
+<a href="index.html" class="header-title">Allmarc - Brochure Download</a>
+<a href="#" data-back-button class="header-icon header-icon-1"><i class="fas fa-chevron-left"></i></a>
+<a href="#" data-menu="menu-main" class="header-icon header-icon-4"><i class="fas fa-bars"></i></a>
+<a href="#" data-toggle-theme class="header-icon header-icon-3 show-on-theme-dark"><i class="fas fa-sun"></i></a>
+<a href="#" data-toggle-theme class="header-icon header-icon-3 show-on-theme-light"><i class="fas fa-moon"></i></a>
+</div>
+<div class="page-content pb-0">
+<div class="card rounded-0 check-card" data-card-height="cover" style="background-color: white;">
+<div class="card-center text-center  ">
+<img loading="lazy" decoding="async" src="images/logo.png" style="width:200px;padding-bottom:25px;">
+ 
+ 
+
+  <h4 class="boxed-text-xl l" style="color:grey!important;padding-bottom:5px;margin-top:10px;font-weight:normal;"> Download Allmarc Catalogue</h4>
+ 
+  <button style="margin-bottom:12px;width:80%;background:grey;" class="btn btn-primary   rounded-s" onclick="window.location.href='https://allmarcindia.com/download-brochure/Building_Formwork_Allmarc.pdf'"><i class="fa fa-download" aria-hidden="true"></i><b> Building Formwork </b></button>
+
+  <button style="margin-bottom:12px;width:80%;background:grey;" class="btn btn-primary   rounded-s" onclick="window.location.href='https://allmarcindia.com/download-brochure/Infrastructure_Formwork_Allmarc.pdf'"><i class="fa fa-download" aria-hidden="true"></i><b> Infrastructure Formwork </b></button>
+
+  <button style="margin-bottom:12px;width:80%;background:grey;" class="btn btn-primary   rounded-s" onclick="window.location.href='https://allmarcindia.com/Shoring_Scaffolding_Allmarc.pdf'"><i class="fa fa-download" aria-hidden="true"></i><b> Scaffolding & Shoring </b></button>
+
+
+  <button style="margin-bottom:12px;width:80%;background:grey;" class="btn btn-primary   rounded-s" onclick="window.location.href='https://allmarcindia.com/download-brochure/GripStrut_Decking_Allmarc.pdf'"><i class="fa fa-download" aria-hidden="true"></i><b> Decking Solutions </b></button>
+
+  <button style="margin-bottom:12px;width:80%;background:grey;" class="btn btn-primary   rounded-s" onclick="window.location.href='https://allmarcindia.com/download-brochure/Allmarc_Main_Brochure.pdf'"><i class="fa fa-download" aria-hidden="true"></i><b> Detailed Brochure (172 Page) </b></button>
+
+  <button style="margin-bottom:12px;width:80%;background:grey;" class="btn btn-primary   rounded-s" onclick="window.location.href='https://allmarcindia.com/download-brochure/Allmarc_PMS_Brochure.pdf'"><i class="fa fa-download" aria-hidden="true"></i><b> Allmarc PMS </b></button>
+
+ <br>
+ 
+<br>
+ <a   onclick="window.location.href='https://allmarcindia.com'" style="color:rgb(220, 0, 0);"><i class="fa fa-globe" aria-hidden="true"></i><b> Visit Allmarc Website</b></a></b></a> | <a   onclick="window.location.href='tel:+919998656402'" style="color:rgb(220, 0, 0);"><i class="fa fa-phone" aria-hidden="true"></i><b> Call Allmarc</b></a><br>
+
+ <div class="footer">
+  <a onclick="window.location.href='https://deneural.com'" style="color:rgb(54, 54, 54);">Developed by Deneural Ventures</a>
+
+</div>
+ 
+</div>
+</div>
+</div>
+
+<div id="menu-main" class="menu menu-box-left rounded-0" data-menu-load="menu-main.html" data-menu-width="280" data-menu-active="nav-pages"></div>
+
+<div id="menu-share" class="menu menu-box-bottom rounded-m" data-menu-load="menu-share.html" data-menu-height="370"></div>
+
+<div id="menu-colors" class="menu menu-box-bottom rounded-m" data-menu-load="menu-colors.html" data-menu-height="480"></div>
+</div>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<!--
+  Takes over the enquiry and brochure forms carried in the migrated markup.
+  Loaded last and deferred so it binds after the page's own jQuery handler
+  exists; it then intercepts in the capture phase, which is what lets it
+  replace behaviour without editing a single line of the original HTML.
+-->
+<script src="/forms/allmarc-forms.js" defer></script>
+<!-- Site assistant: chat and voice. Talks to /chat/* on this origin only. -->
+
+</body>
+</html>
