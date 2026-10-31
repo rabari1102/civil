@@ -9,7 +9,7 @@
     "url": "https://github.com/rabari1102/civil.git"
   },
   "scripts": {
-    "build": "node build/build.mjs",
+    "build": "node build/build.mjs --copy-remote",
     "serve": "node build/serve.mjs",
     "start": "node build/serve.mjs",
     "dev": "node build/build.mjs && node build/serve.mjs",
