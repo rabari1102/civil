@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build and output artifacts
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary download files
+*.part
+*.tmp

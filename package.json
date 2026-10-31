@@ -1,0 +1,26 @@
+{
+  "name": "civil",
+  "version": "1.0.0",
+  "description": "Allmarc Civil & Heavy Engineering Infrastructure — Interactive 3D Platform and Static Site Generator",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rabari1102/civil.git"
+  },
+  "scripts": {
+    "build": "node build/build.mjs",
+    "serve": "node build/serve.mjs",
+    "start": "node build/serve.mjs",
+    "dev": "node build/build.mjs && node build/serve.mjs",
+    "check:coverage": "node build/tools/coverage.mjs",
+    "check:links": "node build/tools/links.mjs",
+    "test": "npm run build && npm run check:links"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.13",
+    "three": "^0.169.0"
+  }
+}
